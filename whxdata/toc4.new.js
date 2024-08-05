@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Abrir","type":"item","tilePath":"","description":"","url":"BLBHTML/Abrir.htm"},{"name":"Cambio de empresa","type":"item","tilePath":"","description":"","url":"BLBHTML/Cambio_de_empresa.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

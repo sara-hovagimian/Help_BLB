@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+  <meta name="gRootRelPath" content=".."/>
+	<meta name="gCommonRootRelPath" content=".."/>
+  <meta name="gTopicId" content="1"/>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Datos Históricos</title>
+<link rel="StyleSheet" href="../assets/css/LEN.css" type="text/css"/>
+
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="BAS LABORO">
+        <span>BAS LABORO</span>
+      </div>
+      <div class="gotohome" title="Haga clic aquí para ver esta página en contexto">
+        <a href="#" onclick="rh._.goToFullLayout()">Haga clic aquí para ver esta página en contexto</a>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+<h1>Datos Históricos</h1>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_1030501695.gif" alt="BLBIMG\ebx_1030501695.gif" width="24" height="24" border="0"/> Usar Datos Históricos</p>
+<p class="H_Texto">Al activar este campo, se está indicando que se requiere emitir un informe con datos históricos. En ese caso, puede utilizarse una reconstrucción ya existente en el sistema, o crear una nueva.</p>
+<p class="H_Texto">Si no está activado, el informe exhibe información sobre datos actuales de la base de datos.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_771338071.gif" alt="BLBIMG\ebx_771338071.gif" width="24" height="24" border="0"/> Históricos Reconstruidos</p>
+<p class="H_Texto">En este cuadro es posible especificar las referencias a grupos de datos para emitir el informe, así como también, crear nuevas referencias de datos o eliminar existentes.</p>
+<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_-179498665.gif" alt="BLBIMG\ebx_-179498665.gif" width="30" height="17" border="0"/> Disponibles</p>
+<p class="H_Parrafo_de_Item">En este campo figuran las referencias asociadas a un conjunto de datos específico, estos conjuntos de datos requeridos para efectuar las reconstrucciones son manejados internamente por BAS Laboro, agrupándolos en grupos llamados Sec1, Sec2, etc.</p>
+<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_1093196910.gif" alt="BLBIMG\ebx_1093196910.gif" width="24" height="24" border="0"/> Eliminar</p>
+<p class="H_Parrafo_de_Item">Permite eliminar grupos de datos almacenados para la reconstrucción de datos. Cuando se realiza una reconstrucción, se crean las tablas con la misma estructura que las originales y con la información histórica. Si esta reconstrucción involucra muchos datos tendrá un tamaño considerable y, si se piensa que es posible tener tantas reconstrucciones como se quiera, la cantidad de datos puede crecer mucho impactando sobre la performance del sistema.</p>
+<p class="H_Parrafo_de_Item">Por lo cual, cuando a una reconstrucción no se le dé más uso, se recomienda eliminarla.</p>
+<p class="H_Parrafo_de_Item">Para ello, en el campo Disponibles de alguno de los informes que utilizan la reconstrucción a eliminar, o en la tarea Administración de auditorias, se debe seleccionar la reconstrucción que corresponda.</p>
+<p class="H_Parrafo_de_Item">Una vez seleccionada, bastará presionar el botón Eliminar y, previo pedido de confirmación, BAS Laboro eliminará la reconstrucción seleccionada</p>
+<p class="H_Sub-Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_1093196910.gif" alt="BLBIMG\ebx_1093196910.gif" width="24" height="24" border="0"/> Crear Nuevo</p>
+<p class="H_Parrafo_de_Item">Permite crear una nueva reconstrucción de datos. Al hacerlo se abre la ventana <a href="Reconstruir_Historicos.htm">Reconstruir Históricos</a>  que permite informar la fecha a la cual se desea reconstruir los datos requeridos para el informe.</p>
+<p class="H_Parrafo_de_Item">BAS Laboro asigna, en forma automática, una descripción a cada una de las reconstrucciones que se realizan. El nombre que se asigna está compuesto por:</p>
+<ul>
+<li style="font-size: 8pt;">
+<p class="H_Sub-Sub-Item_con_vi￱eta_negrita">Código de reconstrucción</p>
+</li>
+</ul>
+<p class="H_Parrafo_de_Sub-Sub-Item">Este código identifica al grupo de informes que comparten el mismo conjunto de datos reconstruidos. No reviste interés para el usuario, excepto a título informativo para saber qué informes comparten las mismas reconstrucciones.</p>
+<ul>
+<li style="font-size: 8pt;">
+<p class="H_Sub-Sub-Item_con_imagen_negrita">Nombre del informe y fecha a la cual se generó</p>
+</li>
+</ul>
+<p class="H_Parrafo_de_Sub-Sub-Item">Si no se ingresa ningún texto en el campo Descripción, se exhibe Sin descripción.</p>
+<p class="H_Parrafo_de_Sub-Sub-Item">Al solicitar la reconstrucción es posible indicar algunos filtros de modo de reconstruir, solamente, la información de algunos legajos.</p>
+<p class="H_Parrafo_de_Sub-Sub-Item">Los filtros se establecen en la ficha Legajos del informe del cual se trate, indicando los códigos de legajos cuya información se desea reconstruir. Vale aclarar que, al tratarse de procesos de reconstrucción, no está prevista la posibilidad de filtrar la información por atributos de legajos; solamente, se pueden establecer filtros en base a sus códigos.</p>
+<p class="H_Parrafo_de_Sub-Sub-Item">Esta limitación puede entenderse si se piensa que los valores de atributos que se asignan a los legajos pueden sufrir modificaciones a lo largo del tiempo, por lo cual, si se indicasen filtros en base a dichos valores, el resultado que se obtendría no sería confiable.</p>
+<p class="H_Parrafo_de_Sub-Sub-Item">La posibilidad de utilizar filtros en relación a los legajos es sumamente útil ya que un proceso de reconstrucción que abarque un período de tiempo prolongado, puede llevar un tiempo considerable. Por lo cual, en caso que no se requiera reconstruir todos los datos, se recomienda utilizar los filtros para limitar la información a reconstruir, solamente a la requerida.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_-1200284306.gif" alt="BLBIMG\ebx_-1200284306.gif" width="24" height="24" border="0"/> Para tener en cuenta</p>
+<p class="H_Texto">Para utilizar los datos almacenados y poder reconstruir la información de un listado a determinada fecha, se deben reconstruir las tablas de la base de datos a esa fecha.</p>
+<p class="H_Texto">El proceso de reconstrucción, en base a la fecha a la que se solicita el informe, construirá réplicas de las tablas que contienen los datos que se requieren para emitir el listado e cuestión.</p>
+<p class="H_Texto">Es importante recalcar que los datos existentes en las tablas al momento de la reconstrucción no son reemplazados, sino que las reconstrucciones se generan en otras tablas que no afectan, en absoluto, a las tablas originales.</p>
+<p class="H_Texto">Cuando un usuario realiza una reconstrucción, ésta quedará disponible para todos los usuarios y para todos los listados que utilicen ese mismo conjunto de datos.</p>
+<p class="H_Texto">Todos los informes que prevén la reconstrucción histórica de datos trabajan en forma similar a la que veremos, a continuación, para este informe.</p>
+<p class="H_Texto">Si se requiere retrotraer la información a alguna fecha pasada, es posible efectuar una reconstrucción de los datos a esa fecha, independientemente de los valores existentes a la fecha en que se solicita dicha información.</p>
+<p class="H_Texto">Para utilizar los datos almacenados y poder reconstruir la información de un listado a determinada fecha, se deben reconstruir las tablas de la base de datos a esa fecha.</p>
+<p class="H_Texto">El proceso de reconstrucción, en base a la fecha a la que se solicita el informe, construirá réplicas de las tablas que contienen los datos que se requieren para emitir el listado e cuestión.</p>
+<p class="H_Texto">Es importante recalcar que los datos existentes en las tablas al momento de la reconstrucción no son reemplazados, sino que las reconstrucciones se generan en otras tablas que no afectan, en absoluto, a las tablas originales.</p>
+<p class="H_Texto">Para la emisión histórica de cada listado se necesita contar con un conjunto de datos específico, estos conjuntos de datos requeridos para efectuar las reconstrucciones son manejados internamente por BAS Laboro, agrupándolos en grupos llamados Sec1, Sec2, etc.</p>
+
+</body></html>

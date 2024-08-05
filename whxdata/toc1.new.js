@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Welcome","type":"item","tilePath":"","description":"","url":"BLBHTML/Welcome.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

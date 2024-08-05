@@ -1,0 +1,568 @@
+/*Created with Adobe RoboHelp 11.*/
+H2 {
+  margin-right: 6.50pt;
+  margin-top: 6.00pt;
+  margin-bottom: 2.00pt;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 5.75pt;
+  font-family: Arial;
+  font-size: 1rem;
+}
+H3 {
+  margin-right: 6.50pt;
+  margin-top: 6.00pt;
+  margin-bottom: 2.00pt;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 5.75pt;
+  font-family: Arial;
+  font-size: 8pt;
+}
+H4 {
+  margin-left: 18.00pt;
+  margin-right: 6.50pt;
+  margin-top: 4.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-weight: bold;
+  text-indent: -70.90pt;
+  font-family: Arial;
+  font-size: 1rem;
+}
+H6.Heading7 {
+  margin-top: 12.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: 42.55pt;
+  text-align: left;
+  font-size: 8pt;
+  font-weight: bold;
+  background-color: #ffffff;
+  font-family: Arial;
+}
+H6.Heading8 {
+  margin-top: 12.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: 49.60pt;
+  text-align: left;
+  font-size: 8pt;
+  font-weight: bold;
+  margin-left: 5.75pt;
+  font-family: Arial;
+}
+H6.Heading9 {
+  margin-top: 12.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: 56.70pt;
+  text-align: left;
+  font-size: 8pt;
+  font-weight: bold;
+  font-family: Arial;
+}
+P.Normal_Indent {
+  margin-left: 36.00pt;
+  margin-right: 6.50pt;
+  margin-top: 4.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Texto {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-family: Calibri;
+  font-size: 1rem;
+}
+P.H_Item_con_imagen_negrita {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-weight: bold;
+  font-family: Calibri;
+  font-size: 1.2rem;
+}
+P.H_Parrafo_de_Item {
+  margin-left: 14.20pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Parrafo_de_Sub-Item {
+  margin-left: 28.35pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Parrafo_de_Sub-Sub-Item {
+  margin-left: 42.55pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Sub-Item_con_imagen_negrita {
+  margin-left: 28.35pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: -14.20pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+}
+P.H_Sub￭tem_con_vi￱eta {
+  margin-left: 32.20pt;
+  margin-top: 6.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: -18.00pt;
+  text-align: left;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Sub-Sub-Sub-Item_con_imagen_negrita {
+  margin-left: 42.55pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+}
+P.H_Texto_negrita {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+}
+P.H_Texto_subrayado_negrita_indentado {
+  margin-left: 14.20pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+  text-decoration: underline underline underline;
+}
+P.H_Titulo_de_texto_negrita {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+}
+P.H_Sub-Sub-Item_con_imagen_negrita {
+  margin-left: 42.55pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-indent: -14.20pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+}
+P.H_Parrafo_de_Sub-Sub-Sub_Item {
+  margin-left: 76.85pt;
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Calibri;
+}
+P.H_Texto_subrayado {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Calibri;
+  text-decoration: underline underline underline;
+}
+P.H_Texto_subrayado_arial_9 {
+  margin-top: 3.00pt;
+  margin-bottom: 3.00pt;
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: Calibri;
+  text-decoration: underline underline underline;
+}
+P.Normal_(Web) {
+  margin-right: 6.50pt;
+  margin-top: 4.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-size: 2rem;
+  font-family: Calibri;
+}
+p.texto {
+  font-family: Calibri;
+  font-size: 1rem;
+}
+P.Estilo_H_Sub-Item_con_vi￱eta_negrita_XE_+_Symbol_(s￭mbolo) _11_pt_S___ {
+  margin-top: 0.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 1rem;
+}
+P.Estilo_Estilo_H_Sub-Item_con_vi￱eta_negrita_XE_+_Symbol_(s￭mbolo) _11___ {
+  margin-top: 0.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
+P.Estilo_H_Sub-Item_con_vi￱eta_negrita_+_Symbol_(s￭mbolo) _11_pt_Sin____ {
+  margin-top: 0.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 1rem;
+}
+P.Estilo_Estilo_H_Sub-Item_con_vi￱eta_negrita_+_Symbol_(s￭mbolo) _11_pt___ {
+  margin-top: 0.00pt;
+  margin-bottom: 0.00pt;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 1rem;
+  font-weight: bold;
+}
+P.H_Sub-Sub_Item_con_vi￱eta_BORRAR {
+  margin-left: 31.20pt;
+  margin-top: 0.00pt;
+  margin-bottom: 0.00pt;
+  text-indent: -17.00pt;
+  text-align: left;
+  font-family: Calibri;
+  font-size: 1rem;
+}
+P.Indice {
+  margin-left: 5.75pt;
+  margin-right: 6.50pt;
+  margin-top: 15.00pt;
+  margin-bottom: 6.00pt;
+  text-align: left;
+  line-height: 18.00pt;
+  font-family: Calibri;
+  font-size: 1rem;
+  font-weight: bold;
+}
+h1 {
+  font-weight: bold;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  page-break-after: avoid;
+  font-family: Calibri;
+  font-size: 1.5rem;
+  P: ;
+  x-next-type: P;
+}
+h5 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  page-break-after: avoid;
+  font-family: Calibri;
+  x-next-class: ;
+  x-next-type: P;
+}
+h6 {
+  font-weight: bold;
+  margin-top: 14pt;
+  margin-bottom: 14pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  page-break-after: avoid;
+  font-family: Calibri;
+  font-size: 1rem;
+  x-next-class: ;
+  x-next-type: P;
+}
+p.H_Sub_Sub_Item_con_vineta {
+  --autonumber: autonumber;
+  margin-left: 50pt;
+  list-style: rh-list;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 3.5pt;
+  margin-top: 9.5pt;
+  font-size: 1rem;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+}
+p.H_Sub_Sub_Item_con_vineta:before {
+  counter-increment: ph_sub_sub_item_con_vineta1;
+  content: counter(ph_sub_sub_item_con_vineta1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.H_Sub_Sub_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  margin-left: 30pt;
+  list-style: rh-list;
+  margin-bottom: 3.5pt;
+  margin-top: 9.5pt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+}
+p.H_Sub_Sub_Item_con_vineta_Negrita:before {
+  counter-increment: ph_sub_sub_item_con_vineta_negrita1;
+  content: counter(ph_sub_sub_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.H_Subitem_con_vineta_Negrita {
+  --autonumber: autonumber;
+  margin-left: 40px;
+  margin-bottom: 3.5pt;
+  margin-top: 9.5pt;
+  font-style: normal;
+  font-weight: bold;
+  list-style: rh-list;
+  font-size: 1rem;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+}
+p.H_Subitem_con_vineta_Negrita:before {
+  counter-increment: ph_subitem_con_vineta_negrita1;
+  content: counter(ph_subitem_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.H_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  margin-left: 33px;
+  list-style: rh-list;
+  margin-bottom: 3.5pt;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 9.5pt;
+  font-size: 1rem;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+}
+p.H_Item_con_vineta_Negrita:before {
+  counter-increment: ph_item_con_vineta_negrita1;
+  content: counter(ph_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.H_Sub_Sub_Sub_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  margin-left: 90px;
+  list-style: rh-list;
+  margin-bottom: 3.5pt;
+  margin-top: 9.5pt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+}
+p.H_Sub_Sub_Sub_Item_con_vineta_Negrita:before {
+  counter-increment: ph_sub_sub_sub_item_con_vineta_negrita1;
+  content: counter(ph_sub_sub_sub_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.H_Item_con_Vineta {
+  --autonumber: autonumber;
+  list-style: rh-list;
+  margin-left: 37pt;
+  margin-bottom: 3pt;
+  margin-top: 9.5pt;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: Calibri;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 0px;
+  position: relative;
+  --vertical-spacing: 0px;
+  --list-indent: 0px;
+}
+p.H_Item_con_Vineta:before {
+  counter-increment: ph_item_con_vineta1;
+  content: counter(ph_item_con_vineta1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  position: absolute;
+  overflow: hidden;
+}
+p.rl-p-H_Item_con_Vineta {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Item_con_Vineta:before {
+  counter-increment: prl-p-h_item_con_vineta1;
+  content: counter(prl-p-h_item_con_vineta1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.rl-p-H_Sub_Sub_Sub_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Sub_Sub_Sub_Item_con_vineta_Negrita:before {
+  counter-increment: prl-p-h_sub_sub_sub_item_con_vineta_negrita1;
+  content: counter(prl-p-h_sub_sub_sub_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.rl-p-H_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Item_con_vineta_Negrita:before {
+  counter-increment: prl-p-h_item_con_vineta_negrita1;
+  content: counter(prl-p-h_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.rl-p-H_Subitem_con_vineta_Negrita {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Subitem_con_vineta_Negrita:before {
+  counter-increment: prl-p-h_subitem_con_vineta_negrita1;
+  content: counter(prl-p-h_subitem_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.rl-p-H_Sub_Sub_Item_con_vineta_Negrita {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Sub_Sub_Item_con_vineta_Negrita:before {
+  counter-increment: prl-p-h_sub_sub_item_con_vineta_negrita1;
+  content: counter(prl-p-h_sub_sub_item_con_vineta_negrita1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.rl-p-H_Sub_Sub_Item_con_vineta {
+  --autonumber: autonumber;
+  --prefix-size: 24px;
+  --prefix-fixed-size: 0;
+  --prefix-gap: 16px;
+  position: relative;
+  font-family: Calibri;
+  margin-left: calc(var(--list-indent) + var(--prefix-size) + var(--prefix-gap));
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  font-size: 1rem;
+}
+p.rl-p-H_Sub_Sub_Item_con_vineta:before {
+  counter-increment: prl-p-h_sub_sub_item_con_vineta1;
+  content: counter(prl-p-h_sub_sub_item_con_vineta1, disc);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+body {
+  counter-reset: ph_sub_sub_item_con_vineta1 0 ph_sub_sub_item_con_vineta_negrita1 0 ph_subitem_con_vineta_negrita1 0 ph_item_con_vineta_negrita1 0 ph_sub_sub_sub_item_con_vineta_negrita1 0 ph_item_con_vineta1 0 prl-p-h_item_con_vineta1 0 prl-p-h_sub_sub_sub_item_con_vineta_negrita1 0 prl-p-h_item_con_vineta_negrita1 0 prl-p-h_subitem_con_vineta_negrita1 0 prl-p-h_sub_sub_item_con_vineta_negrita1 0 prl-p-h_sub_sub_item_con_vineta1 0;
+  font-family: Calibri;
+  font-size: 1rem;
+}
+p.imagen_producto {
+  font-family: Calibri;
+  font-size: 1rem;
+  margin-left: 35px;
+}

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+  <meta name="gRootRelPath" content=".."/>
+	<meta name="gCommonRootRelPath" content=".."/>
+  <meta name="gTopicId" content="10.0_4"/>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Formatos de exportación</title>
+  <link rel="StyleSheet" href="../assets/css/LEN.css" type="text/css"/>
+  <meta name="rh-index-keywords" content="Formatos de exportación"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="BAS LABORO">
+        <span>BAS LABORO</span>
+      </div>
+      <div class="gotohome" title="Haga clic aquí para ver esta página en contexto">
+        <a href="#" onclick="rh._.goToFullLayout()">Haga clic aquí para ver esta página en contexto</a>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <h1>Formatos de exportación</h1>
+  <p class="H_Texto">BAS Laboro permite generar archivos de texto con la información de legajos que se debe presentar en cada uno de los organismos y entidades que lo requieran (bancos, obras sociales, empresas de seguro, sindicatos, etc.). Estos organismos se dan de alta en el sistema en la tabla Reparticiones.</p>
+  <p class="H_Texto">El formato de los registros de los archivos es de diseño libre, pudiendo generarse todos aquellos que se requieran. Por lo cual para generar archivos para las distintas reparticiones que se habiliten, se deberán diseñar los formatos correspondientes en este punto del menú y, luego, realizar la tarea de generación propiamente dicha.</p>
+  <p class="H_Texto">Esta última se denomina Exportación de datos y está disponible en el submenú Informes del menú Sueldos y Jornales.</p>
+  <p class="H_Texto">Los archivos que se generan son de tipo texto y pueden tener registros de diferente estructura. Por ejemplo registros con datos de encabezado de archivo y/o de repartición, registros con totalizando importes correspondientes a una repartición o a la totalidad de los legajos y registros que incluyan información correspondientes a cada uno de los legajos.</p>
+  <p class="H_Texto">Al definir un formato se deben indicar los datos que se han de incluir, a que zona corresponden y la posición que ocuparán en el registro. Se podrán incluir separadores y textos, explicitar el formato de los campos numéricos y de fecha y, si se requiere, utilizar condiciones para incluir unos datos u otros, según el resultado al evaluar dichas condiciones.</p>
+  <p class="H_Texto">Los importes a incluir en el archivo pueden corresponder a los contenidos de acumuladores y grupos. También se dispone de 20 totalizadores donde es posible acumular importes de acumuladores y grupos de modo de incluir en el archivo el contenido de dichos totalizadores.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Código</p>
+  <p class="H_Texto">Identifica al formato.</p>
+  <p class="H_Texto">Éste código es el que se utiliza en la tarea Exportación de datos para indicar el formato correspondiente al archivo a generar.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Descripción</p>
+  <p class="H_Texto">Texto que conjuntamente con el código identifica al formato.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1192177662.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1192177662.gif" width="24"/> Tipo de formato</p>
+  <p class="H_Texto">Se debe seleccionar un tipo entre los que ofrece el sistema, a saber:</p>
+  <p class="H_Texto">· Información de legajos</p>
+  <p class="H_Texto">· Información de reparticiones</p>
+  <p class="H_Texto">El tipo que se selecciona determinará los datos que se prevé incluir en el archivo. Así, por ejemplo, el dato Año de liquidación está disponible para los tipos correspondientes a reparticiones pero no en formatos de tipo correspondiente a legajos. En particular, para el formato de tipo Repartición se prevé la posibilidad de incluir totales por repartición.</p>
+  <p class="H_Texto">Si se selecciona Información de reparticiones se podrán incluir datos relativos a la liquidación (fecha, número de recibo, etc.), datos relativos a la repartición propiamente dicha y datos del legajo.</p>
+  <p class="H_Texto">Si se selecciona Información de legajos, es posible incluir todos los datos que figuran en las tablas Personas y Legajos y datos relativos a la liquidación. Por ejemplo, la fecha de pago, el tipo y fecha de liquidación, los datos personales, los datos para el SIJP; el convenio y centro de costos a los que pertenece, etc.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_2136861732.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_2136861732.gif" width="23"/> <font style="font-weight: bold;">Salto de l</font>
+    <font style="font-weight: bold;">í</font>
+    <font style="font-weight: bold;">nea</font>
+  </p>
+  <p class="H_Parrafo_de_Item">Mediante la selección de esta opción se agrega un salto al final de cada línea al momento de la exportación de la información<font style="font-weight: bold;">.</font>
+  </p>
+  <p class="H_Item_con_vineta_Negrita">Zona</p>
+  <p class="H_Parrafo_de_Sub-Item">Cada Zona, además de poseer características propias, indica el orden en que se realiza la impresión de datos.</p>
+  <p class="H_Parrafo_de_Sub-Item">Las zonas posibles son:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Encabezado de informe</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Encabezado de repartición</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Cuerpo</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Pie de Repartición</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Pie de informe</p>
+  <p class="H_Parrafo_de_Sub-Item">Por lo cual al generar el archivo se evalúan las líneas de la grilla por zona (en el orden indicado). Para cada zona, se ejecutan las líneas correspondientes en el orden en que figuran en la grilla, luego se evalúan el Número de línea y la columna Inicio.</p>
+  <p class="H_Parrafo_de_Sub-Item">Los datos de la zona Encabezado de informe se incluyen al inicio del archivo y permiten incluir, por ejemplo, información relativa a la empresa. Los datos de la zona Pie de informe se incluyen al final y permiten incluir montos totalizados en el informe y/o montos generales.</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso de existir un encabezado (de informe o de repartición) el sistema verifica que exista también su correspondiente pie.</p>
+  <p class="H_Parrafo_de_Sub-Item">Los datos de la zona Encabezado de repartición se incluyen cada vez que al generar el archivo se detecta un cambio de repartición, encabezando la información correspondiente a la repartición que comienza. Análogamente, dicho cambio de repartición tiene como consecuencia incluir los datos de la zona Pie de repartición al pie de la información correspondiente a la repartición que concluye.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por último, la información correspondiente a la zona Cuerpo define el formato de registro para los datos correspondientes al detalle de los legajos propiamente dichos.</p>
+  <p class="H_Item_con_vineta_Negrita">Origen</p>
+  <p class="H_Parrafo_de_Sub-Item">El origen determina el tipo de dato a incluir. Siendo posible seleccionar alguna de las siguientes opciones:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Columna</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Texto</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Acumulador</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Inicio-Fin Condición</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Grupo</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Totalizador</p>
+  <p class="H_Parrafo_de_Sub-Item">En base al dato que se seleccione en este campo, será la información que solicite el sistema en relación a él a lo largo de la línea.</p>
+  <p class="H_Parrafo_de_Sub-Item">Vale aclarar que las zonas de tipo Encabezado sólo pueden tener habilitados orígenes de tipo Texto y Columna. Las de tipo Pie pueden tener asociados orígenes de tipo texto, columna y Totalizador y los datos del Cuerpo podrán hacer mención a todos los tipos de orígenes.</p>
+  <p class="H_Item_con_vineta_Negrita">Acumulador</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta es la opción a seleccionar si se desea incluir el contenido de un acumulador en relación a cada legajo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Al indicar como origen Acumulador se deberá informar el acumulador del cual se trata en la columna Código.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por ejemplo, si se desea incluir el sueldo del empleado y éste está disponible en el acumulador SUE, se seleccionará esta opción y se informará el acumulador mencionado en el campo Código.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se requiere enviar a un totalizador el importe del acumulador se deberá informar el número de totalizador en la columna correspondiente (se dispone de 20 totalizadores). En ese caso, en la columna Operación se indicará si el importe suma (+) o resta (-), en el totalizador indicado.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por lo cual, cuando se selecciona como origen Acumulador se habilitan las columnas Código, Totalizador y Operación.</p>
+  <p class="H_Item_con_vineta_Negrita">Grupo</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta es la opción a seleccionar si se desea incluir el importe correspondiente a un grupo de los definidos en la tabla Grupos de ganancias. En este caso, al generar el archivo, se incluirá el importe resultante de evaluar el grupo informado.</p>
+  <p class="H_Parrafo_de_Sub-Item">Pueden incluirse los grupos que se han definido como Detalle de variable o Fórmula de cálculo, no así los definidos como Encabezados de subgrupos.</p>
+  <p class="H_Parrafo_de_Sub-Item">La metodología de trabajo de los grupos es similar a la de los acumuladores. Por lo cual, al indicar como origen Grupo, se deberá informar el código que corresponda en la columna Código.</p>
+  <p class="H_Parrafo_de_Sub-Item">Análogamente, si se requiere enviar a un totalizador el importe del grupo se deberá informar el número de totalizador en la columna correspondiente (se dispone de 20 totalizadores). En ese caso, en la columna Operación se indicará si el importe suma (+) o resta (-), en el totalizador indicado.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por lo cual, cuando se selecciona como origen Grupo se habilitan las columnas Código, Totalizador y Operación.</p>
+  <p class="H_Item_con_vineta_Negrita">Columna</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta es la opción que se debe seleccionar si se desea incluir en el archivo un dato propiamente dicho. El dato a incluir se informará también en la columna Código.</p>
+  <p class="H_Parrafo_de_Sub-Item">Al seleccionar este origen se habilita el ingreso a la columna Código donde se exhiben los datos disponibles, debiendo seleccionarse aquel que se desea incluir. Los datos que se ofrecen son diferentes según que el Tipo de formato corresponda a Legajos o Repartición.</p>
+  <p class="H_Parrafo_de_Sub-Item">En relación a las reparticiones se podrán incluir datos relativos a la liquidación (fecha, número de recibo, etc.), datos relativos a la repartición propiamente dicha y datos del legajo.</p>
+  <p class="H_Parrafo_de_Sub-Item">En cuanto a los legajos, es posible incluir todos los datos que figuran en las tablas Personas y Legajos y datos relativos a la liquidación. Por ejemplo, la fecha de pago, el tipo y fecha de liquidación, los datos personales, los datos para el SIJP; el convenio y centro de costos a los que pertenece, etc.</p>
+  <p class="H_Item_con_vineta_Negrita">Texto</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta opción está destinada a la inclusión de un texto. Este se informará en la columna Texto/Condición.</p>
+  <p class="H_Item_con_vineta_Negrita">Inicio condición</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta opción permite ingresar una condición.</p>
+  <p class="H_Parrafo_de_Sub-Item">Luego, al generar el archivo, se evaluará dicha condición. Si se cumple, se ejecutarán todas las líneas que figuren entre la condición y la correspondiente Fin condición.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si la condición no se cumple se saltean las líneas que figuran entre Inicio condición y Fin condición y se continua con las que están por debajo del correspondiente Fin condición.</p>
+  <p class="H_Item_con_vineta_Negrita">Fin condición</p>
+  <p class="H_Parrafo_de_Sub-Item">Indica el fin de un bloque de líneas condicional.</p>
+  <p class="H_Parrafo_de_Sub-Item">El bloque debe comenzar con una línea cuyo Origen corresponda a Inicio condición. Las líneas incluidas en el bloque se ejecutarán solo si se cumple la condición.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si la condición no se cumple dichas líneas se omiten y se ejecutan aquellas que se encuentran debajo de esta línea.</p>
+  <p class="H_Item_con_vineta_Negrita">Código</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo es accesible si en Origen se seleccionó algunas de las siguientes opciones:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Acumulador</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Columna</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Grupo</p>
+  <p class="H_Parrafo_de_Sub-Item">En todos los casos se dispone de un botón de búsqueda que ofrece todos los elementos que corresponden al origen seleccionado.</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso de tratarse de un <font style="font-weight: bold;">Acumulador</font> se debe indicar el código del mismo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si en Origen se seleccionó <font style="font-weight: bold;">Columna</font>, el botón de búsqueda exhibe una serie de datos que serán diferentes según el dato que se haya seleccionado en el campo Tipo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se seleccionó Información de legajos, se ofrecen los datos incluidos en las tablas Personas y Legajos y datos de la liquidación en relación a los legajos.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se seleccionó Información de reparticiones, se ofrecen datos relativos a las reparticiones propiamente dichas e información de los legajos y de la liquidación vinculada a las reparticiones.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si en Origen se seleccionó <font style="font-weight: bold;">Grupo</font> se debe indicar el código del mismo. No es posible incluir grupos definidos como Encabezado de subgrupo.</p>
+  <p class="H_Item_con_vineta_Negrita">Totalizador</p>
+  <p class="H_Parrafo_de_Sub-Item">Este origen de datos permite incluir en el archivo el contenido de un totalizador.</p>
+  <p class="H_Parrafo_de_Sub-Item">Al seleccionarlo se habilita la columna Código en la cual se deberá seleccionar el Totalizador a incluir.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si, por ejemplo, se desea utilizar el Totalizador 03 para realizar la siguiente operación entre acumuladores: BrutoLiq + AsigFamP + Titulos - RemTotal</p>
+  <p class="H_Parrafo_de_Sub-Item">Se debería completar la grilla del formato correspondiente según se muestra</p>
+  <p class="H_Parrafo_de_Sub-Item">:<img alt="BLBIMG\ebx_1272077091.gif" border="0" height="102" src="../assets/images/BLBIMG/ebx_1272077091.gif" width="577"/></p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo exhibe la descripción correspondiente al dato informado en el campo <font style="font-weight: bold;">Código</font>.</p>
+  <p class="H_Item_con_vineta_Negrita">Texto/Condición</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo es accesible si en Origen se seleccionó algunas de las siguientes opciones:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Texto</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Condición</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso de tratarse de un <font style="font-weight: bold;">Texto</font> se debe informar el que corresponda. El texto que se ingrese puede ser alfanumérico y estar compuesto por la cantidad de caracteres que se requiera.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se seleccionó Condición, se debe informar la condición que corresponda.</p>
+  <p class="H_Parrafo_de_Sub-Item">La condición se debe establecer sobre u acumulador, grupo o columna. Las operaciones permitidas son: &lt;=, *, ?, #, [ ], [! ],&gt;=, &lt;; &gt;, &lt;&gt; y LIKE.</p>
+  <p class="H_Parrafo_de_Sub-Item">En las siguientes tablas vemos algunos ejemplos de condicionales donde se utiliza la operación <font style="font-weight: bold;">LIKE</font> :</p>
+  <p class="texto_de_item_OPCIONES" style="margin-top: 0; margin-bottom: 0;"></p>
+  <p class="imagen_producto" style="margin-top: 0pt;"><img alt="BLBIMG\ebx_530323564.gif" border="0" height="340" src="../assets/images/BLBIMG/ebx_530323564.gif" width="571"/></p>
+  <p class="H_Parrafo_de_Sub-Item">Veamos algunas combinaciones que pueden informarse en el formato acompañadas de resultados que cumplen o no las condiciones planteadas.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si observamos la figura anterior, en ella se muestra una línea condicional que involucra al campo Zona. En dicha línea se utiliza la operación LIKE (LIKE B*) en la columna Texto/Condición) para especificar que se imprima el texto Texto a incluir cuando la Zona correspondiente a cada legajo cumpla la condición informada.</p>
+  <p class="H_Parrafo_de_Sub-Item">Específicamente en este caso la condición B* establece que se cumple la condición cuando el código de la zona comienza con la letra B.</p>
+  <p class="H_Parrafo_de_Sub-Item">En las siguientes tablas podemos observar diferentes maneras de establecer condicionales:</p>
+  <p class="H_Parrafo_de_Sub-Item"></p>
+  <p class="H_Parrafo_de_Sub-Item">Cumplen la condición aquellos datos de un determinado campo que comiencen y finalicen con la letra a.</p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_-1100324774.gif" border="0" height="105" src="../assets/images/BLBIMG/ebx_-1100324774.gif" width="577"/></p>
+  <p class="H_Parrafo_de_Sub-Item">Cumplen la condición aquellos datos de un determinado campo que comiencen que contengan una letra entre la A y la Z.</p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_-693351140.gif" border="0" height="88" src="../assets/images/BLBIMG/ebx_-693351140.gif" width="577"/></p>
+  <p class="H_Parrafo_de_Sub-Item">Cumplen la condición aquellos datos de un determinado campo que comiencen con la letra a, contengan un número y finalicen con la letra a.</p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_-706505034.gif" border="0" height="100" src="../assets/images/BLBIMG/ebx_-706505034.gif" width="577"/></p>
+  <p class="H_Parrafo_de_Sub-Item">Cumplen la condición aquellos datos de un determinado campo que comiencen con la letra a, luego contengan una letra entre la letra L y P y terminen con una letra entre c y e.</p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_616142685.gif" border="0" height="100" src="../assets/images/BLBIMG/ebx_616142685.gif" width="577"/></p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_-802027293.gif" border="0" height="100" src="../assets/images/BLBIMG/ebx_-802027293.gif" width="577"/></p>
+  <p class="H_Item_con_vineta_Negrita">Línea</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso que se desee incluir más de una línea en alguna de las zonas, deberá indicarse el orden de las mismas en este campo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por ejemplo es posible que se desee incluir más de una línea en el encabezado. Una para incluir un texto como título general y la otra incluyendo los títulos de las columnas que se incluyen en el archivo. En ese caso una levará como Línea el número 1 y la otra el número 2.</p>
+  <p class="H_Parrafo_de_Sub-Item">Del mismo modo, si se requieren 2 o 3 líneas con información relativa a los legajos en los datos correspondientes a la zona Cuerpo se deberá hacer referencia a las líneas 1, 2 y 3.</p>
+  <p class="H_Item_con_vineta_Negrita">Columna/Inicio</p>
+  <p class="H_Parrafo_de_Sub-Item">Salvo que el origen corresponda a Inicio condición y Fin condición, en el resto de los casos se debe indicar la columna a partir de la cual se incluirá el dato en el registro.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si, por ejemplo, para un dato se indica que la Columna inicio es 28, dicho dato se incluirá en el archivo a partir de la posición 28 del registro.</p>
+  <p class="H_Item_con_vineta_Negrita">Longitud</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo se debe completar en el caso de que la línea corresponda a un dato, es decir, que el origen se haya definido como acumulador, grupo, columna o texto.</p>
+  <p class="H_Parrafo_de_Sub-Item">Se debe especificar la longitud del dato, es decir, la cantidad de posiciones que ocupará dentro del registro.</p>
+  <p class="H_Parrafo_de_Sub-Item">El dato se ubicará a partir de la posición indicada en &quot;Posición inicio&quot; ocupando tantos caracteres como se indique en este campo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si el dato es numérico y es menor que la longitud del campo, se alinea a derecha. Si se indicó en el formato, completar con ceros, se completará la longitud del campo con dicho caracter. En el resto de los casos la alineación es a izquierda.</p>
+  <p class="H_Item_con_vineta_Negrita">Formato</p>
+  <p class="H_Parrafo_de_Sub-Item">Este campo está disponible en los casos en que se ha seleccionado incluir un dato de tipo <font style="font-weight: bold;">Fecha</font> o <font style="font-weight: bold;">Numérico</font> y permite indicar el formato en que se grabará en el archivo.</p>
+  <p class="H_Item_con_vineta_Negrita">Campos numéricos</p>
+  <p class="H_Parrafo_de_Sub-Item">En este campo se debe indicar el formato con el cual se grabarán los campos numéricos.</p>
+  <p class="H_Parrafo_de_Sub-Item">Al presionar el botón <img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> se abre una ventana exhibiendo los formatos previstos por el sistema. En caso que ninguno se adapte al formato que se necesita, es posible activar el campo Personalizar de modo de especificar las características requeridas.</p>
+  <p class="H_Parrafo_de_Sub-Item">Los formatos previstos son:</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">123456</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1234,56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1.234,56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1234.56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1,234.56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">0000123456</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">00001234,56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">00.001.234,56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">00001234.56</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">00,001,234.56</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Personalizar</p>
+  <p class="H_Parrafo_de_Item">Activando este botón es posible definir un formato numérico diferente a los previstos.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Suprime si es cero</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa el número no se imprime en caso que sea cero.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Rellena de ceros</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa, en caso que el número tenga menos dígitos que la longitud del campo se rellena con ceros a la izquierda.</p>
+  <p class="H_Item_con_vineta_Negrita">Separador decimal</p>
+  <p class="H_Parrafo_de_Sub-Item">Se debe indicar el caracter a utilizar como separador decimal.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si no se indica nada, se graba el número sin separador decimal.</p>
+  <p class="H_Item_con_vineta_Negrita">Separador de miles</p>
+  <p class="H_Parrafo_de_Sub-Item">Se debe indicar el caracter a utilizar como separador de miles.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si no se indica nada, se graba el número sin separador de miles.</p>
+  <p class="H_Item_con_vineta_Negrita">Cantidad decimales</p>
+  <p class="H_Parrafo_de_Sub-Item">Se deben indicar la cantidad de decimales a tener en cuenta al grabar el dato en el archivo.</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso de dejar el campo sin dato, graba el número sin decimales.</p>
+  <p class="H_Item_con_vineta_Negrita">Campos de fecha</p>
+  <p class="H_Parrafo_de_Sub-Item">En este campo se debe indicar el formato con el cual se grabarán los campos de tipo fecha.</p>
+  <p class="H_Parrafo_de_Sub-Item">Presionando el botón <img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> se abre una ventana exhibiendo los formatos provistos por el sistema. En caso que ninguno se adapte al formato que se necesita, es posible activar el campo Personalizar de modo de especificar las características requeridas.</p>
+  <p class="H_Parrafo_de_Sub-Item">Los formatos previstos son:</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1/3/2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">01/03/2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1/3/03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">01/03/03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1-mar-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">01-mar-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1-mar-03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1-marzo-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">01-marzo-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">1-marzo-03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">3/03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">03/03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">mar-03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">marzo-03</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">mar-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">marzo-2003</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">3</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">mar</p>
+  <p class="H_Sub_Sub_Sub_Item_con_vineta_Negrita">marzo</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Personalizar</p>
+  <p class="H_Parrafo_de_Item">Activando este botón es posible definir un formato de fecha diferente a los previstos.</p>
+  <p class="H_Item_con_vineta_Negrita">Separador</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Se debe indicar el caracter a utilizar como separador de días, meses y años.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, no se utiliza ningún separador.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Rellena con ceros</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">En este cuadro es posible indicar si se desea anteponer un cero a días y meses.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, no se rellena con ceros.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Día</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que a los días de un dígito se le anteponga un cero.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Mes</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que a los meses de un dígito se le anteponga un cero.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Dígitos por año</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">En este cuadro es posible indicar como se desea representar los años.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, se utilizan cuatro caracteres.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Dos</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que los años se representen con 4 dígitos (ej. 2003).</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Cuatro</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que los años se representen con 2 dígitos (ej. 03).</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Mes (en letras)</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">En este cuadro es posible indicar como se desea representar los meses.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, los meses se representan por dígitos.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Abreviado</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que se desee representar los meses con sus nombres (no con dígitos) y en forma abreviada (ej. mar).</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Completo</p>
+  <p class="H_Parrafo_de_Sub-Sub-Sub_Item">Activar en caso que se desee que se desee representar los meses con sus nombres (no con dígitos) en forma completa (ej. marzo).</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-590965565.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-590965565.gif" width="24"/> Orden</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Seleccionar alguna de las opciones posibles:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día-Mes-Año</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día-Año-Mes</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Mes-Año-Día</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Mes-Día-Año</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Año-Mes-Día</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Año-Día-Mes</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, el orden es Mes-Día-Año.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-590965565.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-590965565.gif" width="24"/> Mostrar</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Seleccionar alguna de las opciones posibles:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día, Mes y Año</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Mes</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Año</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Mes y Año</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día y Mes</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Día y Año</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si no se indica nada, se muestra <font style="font-weight: bold;">Día, Mes y Año</font>.</p>
+  <p class="H_Sub_Sub_Item_con_vineta_Negrita">Totalizador</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">En caso que como origen de datos se haya seleccionado Acumulador, Grupo o Totalizador se habilita esta columna de modo de seleccionar, si se requiere, uno de los 20 totalizadores de los que dispone el sistema. De este modo dicho totalizador se actualizará con el monto correspondiente a la línea (importe del acumulador, grupo o totalizador).</p>
+  <p class="H_Sub_Sub_Item_con_vineta_Negrita">Operación</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">En caso de haber indicador un totalizador en el campo anterior, se deberá indicar si el importe de la línea lo actualiza:</p>
+  <p class="H_Sub_Sub_Item_con_vineta_Negrita">Sumando (ingresar +)</p>
+  <p class="H_Sub_Sub_Item_con_vineta_Negrita">Restando (Ingresar - )</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Texto">Si el archivo a generar requiere separadores entre campos, los caracteres a utilizar pueden incluirse como campos de tipo texto en las posiciones que correspondan.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_823313483.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_823313483.gif" width="24"/> Para tener en cuenta:</p>
+  <p class="H_Texto">La definición de formatos es imprescindible si se requiere generar archivos con información relacionada a las reparticiones.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1542218991.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1542218991.gif" width="24"/> Temas relacionados</p>
+  <p class="H_Item_con_imagen_negrita"><a href="Legajos.htm">Legajos</a></p>
+  <p class="H_Item_con_imagen_negrita"><a href="Reparticiones.htm">Reparticiones</a></p>
+  <p class="H_Item_con_imagen_negrita"><a href="Exportacion_de_datos.htm">Exportación de datos</a></p>
+  <p class="H_Item_con_imagen_negrita"><a href="Informacion_sobre_legajos.htm">Información sobre legajos</a></p>
+
+</body></html>

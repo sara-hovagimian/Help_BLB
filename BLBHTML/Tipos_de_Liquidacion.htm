@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+  <meta name="gRootRelPath" content=".."/>
+	<meta name="gCommonRootRelPath" content=".."/>
+  <meta name="gTopicId" content="5.1.0_1"/>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="Adobe RoboHelp 2022"/>
+<title>Tipos de Liquidación</title>
+<link rel="StyleSheet" href="../assets/css/LEN.css" type="text/css"/>
+
+<meta name="rh-index-keywords" content="Tipos de Liquidación"/></head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="BAS LABORO">
+        <span>BAS LABORO</span>
+      </div>
+      <div class="gotohome" title="Haga clic aquí para ver esta página en contexto">
+        <a href="#" onclick="rh._.goToFullLayout()">Haga clic aquí para ver esta página en contexto</a>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+<h1>Tipos de Liquidación</h1>
+<p class="H_Texto">Los Tipos de liquidación que se habilitan en esta tabla se asociarán a cada liquidación que se realice fijando una serie de características y particularidades.</p>
+<p class="H_Texto">Al abrir una liquidación se debe informar el Tipo de liquidación al cual corresponde.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_774771079.gif" alt="BLBIMG\ebx_774771079.gif" width="24" height="24" border="0"/> Código</p>
+<p class="H_Texto">Código identificatorio del tipo de liquidación.</p>
+<p class="H_Texto">Por ejemplo, 1AQ, 2AQ, AGU, MEN, VAC, etc.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_774771079.gif" alt="BLBIMG\ebx_774771079.gif" width="24" height="24" border="0"/> Descripción</p>
+<p class="H_Texto">Texto que, conjuntamente con el código, identifica el Tipo de liquidación que se habilita.</p>
+<p class="H_Texto">En relación a los ejemplos de códigos citados, pueden corresponder como descripciones: Primera quincena, Segunda quincena, Aguinaldo, Liquidación mensual, Inf. de vacaciones.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Liquidación final complementaria</p>
+<p class="H_Texto">Indica que en la liquidaciones de este tipo sólo podrán liquidarse legajos a los cuáles ya se les efectuó una liquidación final.</p>
+<p class="H_Texto">Cuando se realiza una liquidación final, se toma nota de los legajos a los cuáles se les efectúa. Luego, para dichos legajos, sólo se le podrá efectuar liquidaciones cuyos tipos se hayan definido con este activado.</p>
+<p class="H_Texto">Cuando se selecciona este campo, se deshabilitan automáticamente las opciones Liquidación SAC y Liquidación final.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Liquidación S.A.C.</p>
+<p class="H_Texto">Si se activa esta opción se indica que en las liquidaciones a las cuáles se asocie este tipo se liquidará, entre otros conceptos, el SAC.</p>
+<p class="H_Texto">Al realizar una liquidación de SAC, el sistema toma nota del mes en el cual ésta se produce de modo de mantener actualizado el dato correspondiente a la cantidad de meses trabajados desde la última liquidación de SAC. Esto hace posible automatizar los cálculos cuando deba liquidarse el SAC nuevamente.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Liquidación Final</p>
+<p class="H_Texto">Si se activa esta opción, las liquidaciones a las cuáles se asocie este tipo, serán consideradas por el sistema como liquidaciones finales.</p>
+<p class="H_Texto">Cuando se realiza una liquidación final se toma nota de los legajos a los cuáles se les efectúa. Luego, para dichos legajos, sólo se podrán efectuar liquidaciones finales complementarias, no siendo posible efectuarles ningún otro tipo de liquidación.</p>
+<p class="H_Texto">Nótese que el tener informada una fecha de egreso no inhabilita la liquidación de un legajo. La inhabilitación de liquidaciones, de tipo normal, viene dada por el hecho de haber efectuado al legajo una liquidación final.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Liquidar únicamente legajos con novedades para este tipo de liquidación</p>
+<p class="H_Texto">Si se activa este campo, al realizar liquidaciones a las que se asocie este tipo, sólo se incluirán los legajos que tengan novedades informadas, específicamente, para este tipo de liquidación.</p>
+<p class="H_Texto">Esto es útil, por ejemplo, cuando en la implementación coexisten novedades habilitadas para todas las liquidaciones y novedades habilitadas para liquidaciones específicas, como por ejemplo, en el caso de las novedades relativas a vacaciones.</p>
+<p class="H_Texto">Efectivamente, al definir el tipo de liquidación a asociar a las liquidaciones de vacaciones, puede ser conveniente activar el campo Liquidar únicamente legajos con novedades para este tipo de liquidación. De este modo, si se informan por ejemplo vacaciones para 3 legajos en una nómina de 1000, en la liquidación de vacaciones, el sistema incluirá solamente las novedades relativas a esos 3 legajos, obviando todas las novedades que se encuentren vigentes y que sean válidas en todo tipo de liquidación.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Liquidar únicamente legajos con novedades para este tipo de liquidación</p>
+<p class="H_Texto">Si se activa este campo, al realizar liquidaciones a las que se asocie este tipo, sólo se incluirán los legajos que tengan novedades informadas, específicamente, para este tipo de liquidación.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Se deposita en cuenta bancaria alternativa</p>
+<p class="H_Texto">Si está activado, cuando se realice una liquidación de este tipo, para cada legajo que se liquide, el recibo incluirá, de las reparticiones bancarias que se le hayan asociado, aquella que corresponda a una cuenta bancaria alternativa.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_316801689.gif" alt="BLBIMG\ebx_316801689.gif" width="24" height="24" border="0"/> Actualiza Visor de 4ta categoría</p>
+<p class="H_Texto"><span style="mso-bidi-font-size: 10.0pt; font-family: Arial, sans-serif; mso-fareast-font-family: &#39;Times New Roman&#39;; mso-bidi-font-family: &#39;Times New Roman&#39;; mso-ansi-language: ES-AR; mso-fareast-language: ES; mso-bidi-language: AR-SA;">Si se desea guardar la información de 4ta. categoría, este check box debe estar activado.</span></p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_1074375138.gif" alt="BLBIMG\ebx_1074375138.gif" width="24" height="24" border="0"/> Conceptos de liquidación a liquidar</p>
+<p class="H_Texto">Esta tabla exhibe los conceptos habilitados para liquidaciones que correspondan al tipo en cuestión.</p>
+<p class="H_Texto">La tabla es de doble entrada. Con esto queremos significar que la habilitación de un concepto para un tipo de liquidación puede informarse en esta tabla o en la ficha Tipos de liquidación de la tabla Conceptos de liquidación, en relación al concepto del que se trate.</p>
+<p class="H_Texto">Los conceptos que se informen en esta tabla se exhiben en la ficha Tipos de liquidación de la tabla Conceptos de liquidación y, recíprocamente, al habilitar un concepto para un tipo de liquidación, dicho concepto se exhibe en esta tabla en relación al tipo de liquidación para el cual se habilitó.</p>
+
+<p class="H_Item_con_vineta_Negrita">Clase</p>
+
+<p class="H_Parrafo_de_Sub-Item">Seleccionar la clase que corresponda:</p>
+
+<p class="H_Sub_Sub_Item_con_vineta">Haberes</p>
+
+<p class="H_Sub_Sub_Item_con_vineta">Retenciones</p>
+
+<p class="H_Sub_Sub_Item_con_vineta">Contribuciones</p>
+
+<p class="H_Sub_Sub_Item_con_vineta">Salario familiar</p>
+
+<p class="H_Sub_Sub_Item_con_vineta">Redondeo</p>
+
+<p class="H_Item_con_vineta_Negrita">Número</p>
+
+<p class="H_Parrafo_de_Sub-Item">Código identificatorio del concepto.</p>
+
+<p class="H_Item_con_vineta_Negrita">Descripción</p>
+
+<p class="H_Parrafo_de_Sub-Item">Exhibe la descripción del concepto.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_1074375138.gif" alt="BLBIMG\ebx_1074375138.gif" width="24" height="24" border="0"/> Imputaciones contables</p>
+<p class="H_Texto">Permite informar las cuentas a imputar al liquidar el concepto.</p>
+<p class="H_Texto">Si los campos se dejan sin dato se imputan las cuentas informadas en el cuadro Imputaciones contables por defecto en relación al concepto del cual se trata.</p>
+
+<p class="H_Item_con_vineta_Negrita">Debe</p>
+
+<p class="H_Parrafo_de_Sub-Sub-Item">Imputación contable a debitar cuando se liquida el concepto.</p>
+
+<p class="H_Item_con_vineta_Negrita">Descripción</p>
+
+<p class="H_Parrafo_de_Sub-Sub-Item">Exhibe la descripción de la cuenta.</p>
+
+<p class="H_Item_con_vineta_Negrita">Haber</p>
+
+<p class="H_Parrafo_de_Sub-Sub-Item">Imputación contable a acreditar cuando se liquida el concepto.</p>
+
+<p class="H_Item_con_vineta_Negrita">Descripción</p>
+
+<p class="H_Parrafo_de_Sub-Sub-Item">Exhibe la descripción de la cuenta.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_-1552574742.gif" alt="BLBIMG\ebx_-1552574742.gif" width="24" height="24" border="0"/> Comentarios</p>
+<p class="H_Texto">Es posible realizar, dentro de un mes, todas las liquidaciones que se requieran. Para ello la única consideración a tener en cuenta es que deben habilitarse previamente en la tarea Cambio de liquidación indicando, entre otros datos, el Tipo de liquidación al cual corresponde.</p>
+<p class="H_Texto">Si bien no hay límite en la cantidad de liquidaciones que se pueden efectuar por mes, no es posible realizar dos liquidaciones del mismo tipo. Por lo cual si fuese necesario, por ejemplo, liquidar dos veces gratificaciones en un mismo mes, se deberán habilitar dos tipos de liquidación, por ejemplo, de códigos GR1 y GR2.</p>
+<p class="H_Item_con_imagen_negrita"><img src="../assets/images/BLBIMG/ebx_-859971715.gif" alt="BLBIMG\ebx_-859971715.gif" width="24" height="24" border="0"/> Para tener en cuenta:</p>
+
+<p class="H_Item_con_Vineta">Cuando se incorpora un nuevo concepto de liquidación a la tabla Conceptos de liquidación, automáticamente, el concepto queda habilitado para ser liquidado en todos los tipos de liquidación existentes en el sistema al momento de su incorporación.</p>
+
+<p class="H_Texto">Es por este motivo que, al definir un concepto, la ficha Tipos de liquidación exhibe todas las liquidaciones habilitadas en el sistema con el campo Incluir activado. Si se desea que el concepto no se liquide en determinados tipos de liquidación bastará con desactivar dicho campo para los tipos de liquidación que correspondan.</p>
+<p class="H_Texto">En cambio, al definir un nuevo tipo de liquidación, los conceptos existentes en el sistema no se ven afectados, es decir, no quedan habilitados para ser liquidados en el nuevo tipo de liquidación definido.</p>
+
+</body></html>

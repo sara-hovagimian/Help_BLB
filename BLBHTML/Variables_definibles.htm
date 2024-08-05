@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+  <meta name="gRootRelPath" content=".."/>
+	<meta name="gCommonRootRelPath" content=".."/>
+  <meta name="gTopicId" content="5.0_2"/>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Variables definibles</title>
+  <link rel="StyleSheet" href="../assets/css/LEN.css" type="text/css"/>
+  <meta name="rh-index-keywords" content="Variables definibles"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="BAS LABORO">
+        <span>BAS LABORO</span>
+      </div>
+      <div class="gotohome" title="Haga clic aquí para ver esta página en contexto">
+        <a href="#" onclick="rh._.goToFullLayout()">Haga clic aquí para ver esta página en contexto</a>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <h1>Variables definibles</h1>
+  <p class="H_Texto">Las variables se utilizan en las fórmulas de liquidación que se asocian a los conceptos y en diversas tareas del sistema y están destinadas a almacenar todo tipo de valores.</p>
+  <p class="H_Texto">Estos valores pueden representar cualquier tipo de elementos que hacen a una liquidación, importes de sueldos básicos, importes horarios, cantidad de horas trabajadas, porcentajes a retener por obra social, años de antigüedad del empleado, días de vacaciones, valores que informa el SUSS necesarios para cálculos (como por ejemplo el MOPRE), valores más elaborados, como puede ser el sueldo normal y habitual de cada empleado o el promedio de horas extras trabajados en los últimos seis meses.</p>
+  <p class="H_Texto">Las variables son privativas de cada uno de los legajos. Es decir que, si se liquida a un grupo de legajos una fórmula que incluye una variable determinada, ésta asumirá un valor en particular para cada uno de los legajos y no se verá modificada por los cálculos que pudiesen resultar de los restantes legajos.</p>
+  <p class="H_Texto">Se pueden establecer permisos de seguridad, a los usuarios y a los grupos, por variables. Para más detalle sobre este tema consultar el apartado <a href="Definir_seguridad.htm">Cómo definir los permisos</a> .</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Código</p>
+  <p class="H_Texto">Código identificatorio de la variable.</p>
+  <p class="H_Texto">Este se utilizará cada vez que se requiera invocar a la variable en una fórmula o tarea del sistema.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Descripción</p>
+  <p class="H_Texto">Texto identificatorio de la variable que se exhibe junto al código en el generador de fórmulas y tareas del sistema.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Acumular valores</p>
+  <p class="H_Texto">Indica si la variable se define como acumulativa. Al activar el campo se habilita la ficha Variables acumulativas.</p>
+  <p class="H_Texto">Si no se activa este campo, cuando se informa una novedad en relación a una variable, el valor informado reemplaza al valor que pudiera tener la variable hasta el momento de informar la novedad. Del mismo modo, si informamos como novedad un valor para una variable con una determinada vigencia y posteriormente informamos otro valor para la variable con la misma vigencia, este nuevo valor reemplazará al anterior.</p>
+  <p class="H_Texto">Si se indica Acumular valores las novedades que se informan no sobrescriben los valores existentes hasta el momento para la variable de la que se trate sino que acumulan su valor a los valores existentes.</p>
+  <p class="H_Texto">Para las variables acumulativas cada novedad conserva su vigencia individual.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Establecer topes</p>
+  <p class="H_Texto">Activando este campo es posible efectuar controles sobre los valores que se informan al momento de ingresar novedades. Al activar el campo se habilita la ficha Topes.</p>
+  <p class="H_Texto">Se puede advertir al operador que las novedades que está informando superan los valores topes informados para la variable o, directamente, impedir que se ingrese la novedad si se superan los máximos permitidos.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-898630469.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-898630469.gif" width="24"/> Variables acumulativas</p>
+  <p class="H_Texto">Esta ficha sólo se habilita si se activa el campo Acumular valores.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Acumular por</p>
+  <p class="H_Parrafo_de_Item">Este cuadro está destinado a indicar en base a que se acumulan los valores en la variable.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Novedades de licencia</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta opción está destinada a las variables que se deben informar en el campo Variable de la tarea de ingreso de novedades para licencias y vacaciones.</p>
+  <p class="H_Parrafo_de_Sub-Item">De este modo, los días de vacaciones o de licencia que se informen para el año en curso se irán acumulando en las variables que correspondan.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Ingreso de novedades</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción, cada vez que se informa una novedad que asigna valor a la variable, ésta irá acumulando los valores informados hasta tanto se alcance la fecha de fin de vigencia de la novedad.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Cada mes impositivo transcurrido</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción, cuando se informa una novedad para la variable con determinada vigencia (por ejemplo si se informa el valor 10 desde el mes 4/2002 al mes 12/2002), para calcular el valor de la variable en un mes determinado, se toman los meses que median entre el mes de inicio de la vigencia de la novedad (abril) y el mes de pago. Luego se multiplica esa cantidad de meses por el valor informado como novedad para la variable.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si, por ejemplo, el mes de pago es agosto, la variable asume el valor 50 (10 * 5).</p>
+  <p class="H_Parrafo_de_Sub-Item">Las novedades que se informan en relación a las variables que tienen este campo activado conservan su vigencia individual. Esto significa que si se informan varias novedades con vigencias superpuestas, el valor de la variable se calcula como la sumatoria de los cálculos individuales correspondientes a cada novedad.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Cada mes calendario transcurrido</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción, cuando se informa una novedad para la variable con determinada vigencia (por ejemplo si se informa el valor 10 desde el mes 4/2002 al mes 12/2002), para calcular el valor de la variable en un mes determinado, se toman los meses que median entre el mes de inicio de la vigencia de la novedad (abril) y el mes de liquidación. Luego se multiplica esa cantidad de meses por el valor informado como novedad para la variable.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si, por ejemplo, el mes de liquidación es agosto, la variable asume el valor 50 (10 * 5).</p>
+  <p class="H_Parrafo_de_Sub-Item">Las novedades que se informan en relación a las variables que tienen este campo activado conservan su vigencia individual. Esto significa que si se informan varias novedades con vigencias superpuestas, el valor de la variable se calcula como la sumatoria de los cálculos individuales correspondientes a cada novedad.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Sub-Item">Conceptualmente las variables que acumulan por cada año impositivo transcurrido y cada año calendario transcurrido se comportan en forma similar, sólo que en un caso la acumulación se produce con el cambio de mes y, en el otro, con el cambio de mes impositivo.</p>
+  <p class="H_Parrafo_de_Sub-Item">Recordemos que al realizar la tarea Cambio de liquidación se debe indicar, en relación a la liquidación a iniciar, el Mes y el Mes de pago. El cambio de mes calendario transcurrido está relacionado al cambio del Mes que se informa en dicha tarea mientras que el cambio del mes impositivo está relacionado al cambio del Mes de pago de la misma.</p>
+  <p class="H_Parrafo_de_Sub-Item">Las variables que acumulan por cada año calendario transcurrido acumulan valores dentro del año calendario y, las otras dentro del año impositivo.</p>
+  <p class="H_Parrafo_de_Sub-Item">El año impositivo está relacionado al mes de pago a diferencia del año calendario que está relacionado al mes que corresponde a la liquidación. Así por ejemplo, si el mes de liquidación corresponde a la liquidación de diciembre/20001 pero el mes de pago es enero/2002, como año impositivo se considera el 2002 pero como año calendario, el 2001.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Sub-Item">Mencionamos que cuando se informa una novedad para una variable que acumula por mes (o mes impositivo) , para calcular el valor de la variable en un mes determinado, se toman los meses que median entre el mes de inicio de la novedad y el mes de liquidación, o mes de pago, y se multiplica esa cantidad de meses por el valor informado como novedad para la variable.</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta situación se modifica en el caso de legajos cuya fecha de ingreso sea posterior a la fecha desde la cual entra en vigencia la novedad. En ese caso se consideran los meses que median desde la fecha de ingreso del legajo hasta la fecha hasta la cual rige la novedad.</p>
+  <p class="H_Parrafo_de_Sub-Item">Del mismo modo, en el caso de un legajo cuya fecha de egreso sea anterior a la que corresponde al fin de vigencia de la novedad, se consideran los meses transcurridos hasta el egreso del legajo y no hasta el fin de la vigencia de la novedad.</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso que la novedad tenga una vigencia que abarque más de un año, por ejemplo desde el mes 7/2001 al mes 12/2002, y se esté evaluando su valor en una liquidación correspondiente al año 2002, se considera como mes desde el cual entra en vigencia el mes de inicio del año (calendario o impositivo, según corresponda).</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-898630469.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-898630469.gif" width="24"/> Topes</p>
+  <p class="H_Texto">Esta ficha sólo se habilita si se activa el campo Establecer topes.</p>
+  <p class="H_Texto">Al establecer topes es posible efectuar controles sobre los valores que se informan al momento de ingresar novedades para la variable.</p>
+  <p class="H_Texto">Es posible advertir al operador que las novedades que está informando superan los valores topes permitidos para la variable o, directamente, impedir que se ingrese la novedad si el valor informado supera los máximos permitidos.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Atributo</p>
+  <p class="H_Parrafo_de_Item">Atributo en base a cuyos valores se establecerán los topes.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Advertencia</p>
+  <p class="H_Parrafo_de_Item">Si se activa este campo, al informar una novedad que hace que se superen los valores informados como topes máximos, se emite un aviso al operador y este puede decidir si seguirá adelante, o no, con la tarea.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Restrictivo</p>
+  <p class="H_Parrafo_de_Item">Si se activa este campo, al informar una novedad que hace que se superen los valores informados como topes máximos, se emite un aviso al operador y se le impide seguir adelante con la tarea.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Topes</p>
+  <p class="H_Parrafo_de_Item">Este cuadro permite indicar los valores que se establecerán como topes máximos.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> Valor</p>
+  <p class="H_Parrafo_de_Sub-Item">Valor correspondiente al atributo indicado para el cual se informan los valores máximos.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> Novedad</p>
+  <p class="H_Parrafo_de_Sub-Item">Establece el valor máximo que se permite informar en una novedad.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> Mes</p>
+  <p class="H_Parrafo_de_Sub-Item">Establece el valor máximo que se permite informar en el mes correspondiente a la liquidación.</p>
+  <p class="H_Parrafo_de_Sub-Item"><img alt="BLBIMG\ebx_-881663515.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-881663515.gif" width="24"/> Año</p>
+  <p class="H_Parrafo_de_Sub-Item">Establece el valor máximo que se permite informar en un año calendario.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">También es posible definir <font style="font-weight: bold;">Variables temporales</font>.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Las <font style="font-weight: bold;">variables temporales</font> no se definen en esta tabla sino que se crean, directamente, cuando se les asigna un valor mediante una expresión de una fórmula.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Los valores que asumen este tipo de variables en una fórmula no pueden utilizarse en otras fórmulas. En otras palabras, la validez de una variable temporal está limitada a la fórmula en la cual se la utiliza.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Este tipo de variables suele utilizarse para efectuar cálculos transitorios o auxiliares dentro de una fórmula en los casos en que, ellas mismas como variables en sí, no revisten ninguna trascendencia.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Es posible utilizar como nombre de variable temporal el mismo nombre que se ha asignado a un acumulador o el nombre de una variable predefinida del sistema. En ese caso, al evaluar una expresión que incluye dicha variable temporal, ésta tiene prioridad sobre el valor del acumulador o el valor de la variable predefinida.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Para que la lectura de las fórmulas sea más clara y para evitar posibles errores originados en notaciones confusas, aconsejamos no asignar a las variables temporales nombres de elementos ya existentes en el sistema.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_823313483.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_823313483.gif" width="24"/> Para tener en cuenta:</p>
+  <p class="H_Item_con_Vineta">Es posible definir permisos de seguridad en con respecto a las variables, para más detalles sobre este tema consultar <a href="Definir_seguridad.htm">Cómo definir los permisos</a>.</p>
+  <p class="H_Item_con_Vineta">Cuando se asigna una expresión a un elemento, identificado con un determinado nombre (por ejemplo <font style="font-weight: bold;">BASPRE:=MON+27/78</font>), si dicho nombre no corresponde al código de una variable definida, BAS Laboro asume que se trata de una variable temporal. Así, en la expresión anterior, si no se ha definido una variable de código <font style="font-weight: bold;">BASPRE</font>, se asume que ésta es una variable temporal.</p>
+
+</body></html>

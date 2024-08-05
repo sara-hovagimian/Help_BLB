@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Consulta de liquidaciones","type":"item","tilePath":"","description":"","url":"BLBHTML/Consulta_de_liquidaciones.htm"},{"name":"Consulta por Legajos","type":"item","tilePath":"","description":"","url":"BLBHTML/Consulta_por_Legajos.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

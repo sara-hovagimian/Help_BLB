@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Consulta de Auditoria","type":"item","tilePath":"","description":"","url":"BLBHTML/Auditoria.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

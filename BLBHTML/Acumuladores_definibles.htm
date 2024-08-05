@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+  <meta name="gRootRelPath" content=".."/>
+	<meta name="gCommonRootRelPath" content=".."/>
+  <meta name="gTopicId" content="5.0_3"/>
+  <script type="text/javascript" src="../template/scripts/rh.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/common.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topic.min.js"></script>
+  <script type="text/javascript" src="../template/scripts/topicwidgets.min.js"></script>
+<script type="text/javascript" src="../whxdata/projectsettings.js"></script>
+  <link rel="stylesheet" type="text/css" href="../template/styles/topic.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../template/Charcoal_Grey/topicheader.css"/>
+  <meta name="topic-status" content="Draft"/>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="generator" content="Adobe RoboHelp 2022"/>
+  <title>Acumuladores definibles</title>
+  <link rel="StyleSheet" href="../assets/css/LEN.css" type="text/css"/>
+  <meta name="rh-index-keywords" content="Acumuladores definibles"/>
+</head>
+
+<body>
+  <div class="topic-header rh-hide" id="rh-topic-header">
+    <div class="logo">
+    </div>
+    <div class="nav">
+      <div class="title" title="BAS LABORO">
+        <span>BAS LABORO</span>
+      </div>
+      <div class="gotohome" title="Haga clic aquí para ver esta página en contexto">
+        <a href="#" onclick="rh._.goToFullLayout()">Haga clic aquí para ver esta página en contexto</a>
+      </div>
+    </div>
+  </div>
+  <div class="topic-header-shadow rh-hide" id="rh-topic-header-shadow"></div>
+
+
+
+  <h1>Acumuladores definibles</h1>
+  <p class="H_Texto">Los acumuladores permiten sumar, algebraicamente, un grupo de conceptos de liquidación, cualquiera sea su tipo. Cuando hablamos de suma algebraica queremos decir que es posible incluir tanto conceptos que sumen al resultado como conceptos que resten.</p>
+  <p class="H_Texto">Los acumuladores que se definan en esta tabla serán utilizados en las fórmulas que se asocien a los conceptos de liquidación.</p>
+  <p class="H_Texto">Los acumuladores son privativos de cada uno de los legajos. Es decir que si se asignan a un acumulador una serie de conceptos, dicho acumulador asumirá un valor particular para cada uno de los legajos al que se le liquiden dichos conceptos, con la suma de los valores correspondientes al legajo en cuestión.</p>
+  <p class="H_Texto">Los acumuladores pueden almacenar valores de una liquidación, de varias, de uno o de varios meses, o de uno o varios años. Esto dependerá de la información que se indique al momento de definirlos. También pueden almacenar el resultado de prorratear los importes resultantes de la liquidación de ciertos conceptos que lo requieran en una determinada cantidad de meses.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Código</p>
+  <p class="H_Parrafo_de_Item">Código identificatorio del acumulador.</p>
+  <p class="H_Parrafo_de_Item">Este se utilizará cada vez que se requiera invocar al acumulador en una fórmula o tarea del sistema.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Descripción</p>
+  <p class="H_Parrafo_de_Item">Texto identificatorio del acumulador que se exhibe junto al código en el generador de fórmulas y tareas del sistema.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Sólo el mes de mayor valor</p>
+  <p class="H_Parrafo_de_Item">Si se activa esta opción el acumulador irá comparando, para los meses que integran el período que se indique, los valores correspondientes a cada uno de ellos y almacenará el valor mayor.</p>
+  <p class="H_Parrafo_de_Item">Es decir, almacena el mayor valor mensual que se haya registrado en el período que se indique.</p>
+  <p class="H_Parrafo_de_Item">Por lo cual, los acumuladores que utilizan esta opción, tienen activada también alguna de las opciones correspondientes a considerar períodos correspondientes a Meses anteriores.</p>
+  <p class="H_Parrafo_de_Item">Si se tilda este campo, en la solapa Acumuladores de la Consulta por legajo, al ver el detalle de un acumulador (hacer clic con el botón principal del mouse sobre la descripción en azul), la ventana que se despliega para ver el detalle, exhibe en la parte inferior derecha un campo con el mayor valor del acumulador y el mes en que se registró.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Permite carga inicial</p>
+  <p class="H_Parrafo_de_Item">Si se activa esta opción es posible ingresar, manualmente al sistema, los importes del acumulador correspondientes a todos los meses que se requieran.</p>
+  <p class="H_Parrafo_de_Item">Los valores se ingresan haciendo uso de la tabla Valores iniciales de acumuladores.</p>
+  <p class="H_Parrafo_de_Item">Esta posibilidad es necesaria cuando se requiere contar, en una liquidación, con valores del acumulador correspondientes a meses anteriores y, por algún motivo, éstos no se han registrado en el sistema.</p>
+  <p class="H_Parrafo_de_Item">Esto puede deberse a que recién se comienza a utilizar el sistema o bien, porque se debe incluir en la liquidación un nuevo concepto cuya fórmula requiere contar con valores correspondientes a meses anteriores, como por ejemplo, el promedio de horas extras trabajadas en los últimos 6 meses.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Considera importes prorrateados</p>
+  <p class="H_Parrafo_de_Item">Si se activa esta opción y si el acumulador participa de conceptos que indican prorrateo por algún criterio, su contenido se actualizará con los importes resultantes de dicho prorrateo.</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Item">En relación a este campo vale la pena hacer una aclaración.</p>
+  <p class="H_Parrafo_de_Item">Si el concepto en el cual participa el acumulador tiene también activada la opción Prorratea para ganancias y se requiere que el acumulador se actualice con dicho importe, además de que esté activado el campo Considera importes prorrateados, el acumulador debe tener activada la opción Todos los meses del presente año impositivo, anteriores al mes de pago.</p>
+  <p class="H_Parrafo_de_Item">Vale la pena también mencionar que para la retención de ganancias el prorrateo del importe de los conceptos siempre se realiza desde el mes de pago correspondiente a la liquidación hasta el fin del año impositivo. En cambio, para otros fines, el prorrateo se realiza según la forma que se indica en el concepto, a saber:</p>
+  <p class="H_Item_con_Vineta">en meses restantes del año</p>
+  <p class="H_Item_con_Vineta">en Año calendario</p>
+  <p class="H_Item_con_Vineta">en varios meses (anteriores o siguientes al de la liquidación)</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Por mes de pago</p>
+  <p class="H_Parrafo_de_Sub-Item">Permite acumular la/s liquidación/es del mes actual, teniendo en cuenta el mes de pago.</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item"></p>
+  <p class="H_Item_con_imagen_negrita"> <img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Por mes de liquidación</p>
+  <p class="H_Item_con_imagen_negrita"></p>
+  <p class="H_Parrafo_de_Sub-Item">Para acumular las liquidaciones por mes de liquidación.</p>
+  <p class="H_Item_con_imagen_negrita"></p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-898630469.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-898630469.gif" width="24"/> Períodos a considerar</p>
+  <p class="H_Texto">Esta ficha permite indicar a que períodos corresponden los importes que se acumulan en el acumulador.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Mes actual</p>
+  <p class="H_Parrafo_de_Item">Este cuadro permite indicar qué liquidaciones del mes en curso afectarán el contenido del acumulador.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Liquidación actual</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción el acumulador sólo mantiene el valor correspondiente a los conceptos involucrados en la liquidación que se está realizando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Liquidación anterior al mes actual</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso de indicar Liquidaciones anteriores al mes actual, el acumulador se actualiza con los importes de los conceptos asociados al mismo que han sido liquidados en liquidaciones previas efectuadas en el mismo mes de la liquidación actual.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Sub-Item">Indicando ambas opciones, el acumulador ofrece los valores acumulados durante todo el mes en relación a los conceptos asociados al mismo, incluida la liquidación que se está realizando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Meses anteriores</p>
+  <p class="H_Parrafo_de_Sub-Item">Este cuadro permite indicar si el acumulador incluirá los importes resultantes de liquidar los conceptos involucrados, en meses anteriores al que se está considerando.</p>
+  <p class="H_Sub-Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> No considerar meses anteriores</p>
+  <p class="H_Parrafo_de_Sub-Sub-Item">Si se activa esta opción, los importes de los conceptos involucrados, correspondientes a liquidaciones realizadas en meses anteriores, no se tienen en cuenta.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> n meses anteriores al actual (requiere parámetro en la fórmula)</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta opción permite acumular una determinada cantidad de meses anteriores al actual.</p>
+  <p class="H_Parrafo_de_Sub-Item">Estos pueden ser los inmediatos anteriores como, por ejemplo, los 2 0 6 meses inmediatamente anteriores al que corresponde a la liquidación o, bien, pueden ser meses que no correspondan a los inmediatos anteriores. Por ejemplo, si estamos en agosto, períodos tales como los tres meses anteriores al mes de abril, los cuatro meses anteriores al mes de julio, etc.</p>
+  <p class="H_Parrafo_de_Sub-Item">En cualquiera de los dos casos mencionados, el acumulador se debe definir de la misma forma, esto es, indicando en el cuadro Meses anteriores la opción n meses anteriores al actual.</p>
+  <p class="H_Parrafo_de_Sub-Item">La diferencia en relación a la cantidad de meses anteriores al actual que se consideran radica en la forma de utilizar el acumulador en las fórmulas. A tal fin el acumulador se deberá utilizar con dos parámetros.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si por ejemplo, el código del acumulador es <font style="font-weight: bold;">CSH</font>, éste deberá referenciarse en las fórmulas como <font style="font-weight: bold;">CSH(n1,n2)</font>, donde:</p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">n1</font>: indica la cantidad de meses que abarca el período
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">n2</font>: es un parámetro opcional que indica la cantidad de meses hacia atrás, a partir del mes anterior al de la liquidación, a partir del cual se comienzan a considerar los meses correspondientes al período <font style="font-weight: bold;">n1</font> indicado. Si el parámetro <font style="font-weight: bold;">n2</font> no se indica, se considera el mes inmediato anterior al de la liquidación.
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">Por ejemplo si se está en el mes de agosto y se indica:</p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">CSH (4):</font> considera el acumulado de los 4 meses anteriores a agosto, es decir, el período abril-julio
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">CSH (4,1):</font> considera el acumulado de los 4 meses anteriores a julio, es decir, el período marzo-junio
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">CSH (4,2):</font> considera el acumulado de los 4 meses anteriores a junio, es decir, el período febrero-mayo
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">Cuando al definir un acumulador se indica n meses anteriores al actual su contenido vuelve a cero, automáticamente, con el cambio de año. En relación a tal situación puede observarse que, al indicar n meses anteriores al actual, en el cuadro rotulado Años anteriores, automáticamente se activa el campo No considerar años anteriores.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Todos los meses del presente año calendario, anteriores al mes actual</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción el acumulador se actualiza con los importes de los conceptos involucrados que se liquiden en el mismo año calendario y en meses anteriores al mes correspondiente a la liquidación.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Todos los meses del presente año impositivo, anteriores al mes de pago</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción el acumulador se actualiza con los importes de los conceptos involucrados que se liquiden en el mismo año impositivo y en meses anteriores al mes correspondiente al mes de pago de la liquidación.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Sólo última liquidación</p>
+  <p class="H_Parrafo_de_Sub-Item">Esta opción puede activarse en caso de haber seleccionado n meses anteriores al actual.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si está activada el acumulador devuelve sólo el resultado de la última liquidación de los meses indicados.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Años anteriores</p>
+  <p class="H_Parrafo_de_Sub-Item">Este cuadro permite indicar si el acumulador incluirá los importes resultantes de liquidar los conceptos involucrados, en años anteriores al que se está considerando.</p>
+  <p class="H_Parrafo_de_Sub-Item">Para poder activar algunas de las opciones para acumular que se presentan en este cuadro es necesario que se haya activado alguna de las dos siguientes opciones que se presentan en el cuadro Meses anteriores</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Todos los meses del presente año calendario, anteriores al mes actual</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Todos los meses del presente año impositivo, anteriores al mes de pago</p>
+  <p class="H_Parrafo_de_Sub-Item">En caso contrario no es posible indicar ninguna opción relativa a acumular importes correspondientes a años anteriores.</p>
+  <p class="H_Parrafo_de_Sub-Item">Por lo cual, si se requiere que el acumulador se actualice con valores de años anteriores, deben acumularse en él también valores del presente año.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> No considerar años anteriores</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción, los importes de los conceptos involucrados, correspondientes a liquidaciones realizadas en años anteriores, no se tienen en cuenta.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> n años anteriores al actual (requiere parámetro en la fórmula)</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción el acumulador se actualiza con los importes de los conceptos involucrados que se liquiden en el año calendario anterior al correspondiente a la liquidación.</p>
+  <p class="H_Parrafo_de_Sub-Item">La cantidad de años a acumular depende del parámetro que se indique al invocar al acumulador.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si por ejemplo, el código del acumulador es <font style="font-weight: bold;">CSH</font>, éste deberá referenciarse en las fórmulas como <font style="font-weight: bold;">CSH(n1)</font>, donde:</p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">n1</font>: indica la cantidad de años anteriores al de la liquidación a considerar
+  </p>
+  <p class="H_Parrafo_de_Sub-Item">Por ejemplo si se está en el año 2002 y se indica:</p>
+  <p class="H_Parrafo_de_Sub-Item">
+    <font style="font-weight: bold;">CSH (4):</font> considera el acumulado de los 4 años anteriores al 2002, es decir, 1998-1999-2000 y 2001
+  </p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-63214158.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-63214158.gif" width="24"/> Todos los años anteriores al mes actual</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se activa esta opción el acumulador se actualiza con los importes de los conceptos involucrados que se hayan liquidado desde que la primera liquidación realizada.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1200284306.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1200284306.gif" width="24"/> Comentarios</p>
+  <p class="H_Parrafo_de_Sub-Item">Hemos mencionado que para poder acumular valores correspondientes a años anteriores obligatoriamente deben acumularse también valores correspondientes a meses anteriores del año en curso.</p>
+  <p class="H_Parrafo_de_Sub-Item">Si se requiere excluir el importe correspondiente al año actual, éste puede obtenerse por diferencia.</p>
+  <p class="H_Parrafo_de_Sub-Item">Efectivamente si, por ejemplo, el mes correspondiente a la liquidación es abril, el código del acumulador es <font style="font-weight: bold;">SCH</font> y se requiere contar con el importe del acumulador correspondiente al año anterior, se debe definir el acumulador con los campos Todos los meses del presente año calendario, anteriores al mes actual y n años anteriores al actual (requiere parámetro en la fórmula)&quot; activados.</p>
+  <p class="H_Parrafo_de_Sub-Item">Luego, el valor correspondiente al año anterior al actual se obtendrá como:</p>
+  <p class="H_Parrafo_de_Sub-Item">SCH (1) -SCH</p>
+  <p class="H_Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-898630469.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-898630469.gif" width="24"/> Conceptos de liquidación involucrados</p>
+  <p class="H_Texto">Esta ficha está destinada a indicar los conceptos que actualizan el contenido del acumulador.</p>
+  <p class="H_Texto">La tabla es de doble entrada. Con esto queremos significar que la participación de un concepto en un acumulador puede informarse en esta ficha o en la ficha asociados de la tabla <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a>, en relación al concepto del que se trate.</p>
+  <p class="H_Texto">Los conceptos que se informen en esta ficha se exhiben en la ficha asociados de la tabla <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> y, recíprocamente, al vincular un acumulador a un concepto en dicha tabla, dicho concepto se exhibe en esta ficha.</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Conceptos de liquidación asociados</p>
+  <p class="H_Parrafo_de_Item">Tabla destinada a indicar a los conceptos y la forma en que se tienen en cuenta.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-590965565.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-590965565.gif" width="24"/> Clase</p>
+  <p class="H_Parrafo_de_Sub-Item">Seleccionar la clase que corresponda:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Haberes</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Retenciones</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Contribuciones</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Salario familiar</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Redondeo</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-1036784408.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-1036784408.gif" width="24"/> Número</p>
+  <p class="H_Parrafo_de_Sub-Item">Código identificatorio del concepto.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_-590965565.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_-590965565.gif" width="24"/> Op</p>
+  <p class="H_Parrafo_de_Sub-Item">Seleccionar la que corresponda:</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Suma</p>
+  <p class="H_Sub_Sub_Item_con_vineta">Resta</p>
+  <p class="H_Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_771338071.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_771338071.gif" width="24"/> Incluir nuevos conceptos de:</p>
+  <p class="H_Parrafo_de_Item">Este cuadro permite indicar que al habilitar nuevos conceptos sus importes automáticamente se incorporen, sumando, al acumulador.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Haberes</p>
+  <p class="H_Parrafo_de_Sub-Item">Si este campo está activado, todo nuevo concepto de haberes que se incorpore en la tabla  <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> incluirá, en la ficha asociados, al acumulador y lo actualizará Sumando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Retenciones</p>
+  <p class="H_Parrafo_de_Sub-Item">Si este campo está activado, todo nuevo concepto de retenciones que se incorpore en la tabla  <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> incluirá, en la ficha asociados, al acumulador y lo actualizará Sumando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Asignaciones familiares</p>
+  <p class="H_Parrafo_de_Sub-Item">Si este campo está activado, todo nuevo concepto de asignaciones familiares que se incorpore en la tabla  <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> incluirá, en la ficha asociados, al acumulador y lo actualizará Sumando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Redondeo</p>
+  <p class="H_Parrafo_de_Sub-Item">Si este campo está activado, todo nuevo concepto de redondeo que se incorpore en la tabla  <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> incluirá, en la ficha asociados, al acumulador y lo actualizará Sumando.</p>
+  <p class="H_Sub-Sub-Item_con_imagen_negrita"><img alt="BLBIMG\ebx_1030501695.gif" border="0" height="24" src="../assets/images/BLBIMG/ebx_1030501695.gif" width="24"/> Contribuciones</p>
+  <p class="H_Parrafo_de_Sub-Item">Si este campo está activado, todo nuevo concepto de contribuciones que se incorpore en la tabla  <a href="Conceptos_de_liquidacion.htm">Conceptos de liquidación</a> incluirá, en la ficha asociados, al acumulador y lo actualizará Sumando.</p>
+
+</body></html>

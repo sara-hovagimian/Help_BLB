@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Visor de Alertas","type":"item","tilePath":"","description":"","url":"BLBHTML/Visor_de_Alertas1.htm"},{"name":"Suceso","type":"book","tilePath":"","key":"toc19"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

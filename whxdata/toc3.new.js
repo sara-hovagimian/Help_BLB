@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Base de Datos","type":"book","tilePath":"","key":"toc4"},{"name":"Herramientas","type":"book","tilePath":"","key":"toc5"},{"name":"¿?","type":"book","tilePath":"","key":"toc6"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();
